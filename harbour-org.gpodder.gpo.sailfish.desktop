@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=gpo
+Terminal=true
+Icon=harbour-org.gpodder.sailfish
+Exec=fingerterm -e "/usr/bin/gpo"

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=gpo (subscribe to feed)
+Icon=harbour-org.gpodder.sailfish
+Terminal=false
+NoDisplay=true
+Type=Application
+MimeType=x-scheme-handler/gpodder;x-scheme-handler/feed;x-scheme-handler/podcast;x-scheme-handler/pcast;
+Exec=/usr/bin/gpo subscribe %u
