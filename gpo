@@ -1,6 +1,8 @@
 #!/bin/bash
+# this is a wrapper for gpo from gpodder-core to be able to run it on SailfishOS
+
 # Needed to find gpodder-core packaged with the gpodder gui
 export PYTHONPATH=/usr/share/harbour-org.gpodder.sailfish:${PYTHONPATH}
-# Needed because as of 2.0.0.10, all locale variables are set to POSIX, but we need UTF-8 support
+# Needed because as of Sailfish 2.0.0.10, all locale variables are set to POSIX, but we need UTF-8 support
 export LC_CTYPE="en_US.UTF-8"
-/usr/bin/python3 /usr/share/harbour-org.gpodder.sailfish/gpo "$@"
+/usr/bin/python3 /usr/share/harbour-org.gpodder.gpo.sailfish/gpo "$@"
